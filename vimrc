@@ -15,6 +15,10 @@ Plug 'jistr/vim-nerdtree-tabs'
 " =============
 Plug 'jelera/vim-javascript-syntax'
 
+" syntax check
+" =============
+Plug 'vim-syntastic/syntastic'
+
 " Initialize plugin system
 call plug#end()
 
@@ -124,6 +128,16 @@ set incsearch       " Find the next match as we type the search
 set hlsearch        " Highlight searches by default
 set ignorecase      " Ignore case when searching...
 set smartcase       " ...unless we type a capital
+
+" ================ Syntax Check =====================
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
 
 " ================ Custom Settings ==================
 
