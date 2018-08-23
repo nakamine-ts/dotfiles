@@ -19,6 +19,10 @@ Plug 'jelera/vim-javascript-syntax'
 " =============
 Plug 'vim-syntastic/syntastic'
 
+" enhancement
+" =============
+Plug 'itchyny/lightline.vim'
+
 " Initialize plugin system
 call plug#end()
 
@@ -138,6 +142,13 @@ let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
+
+" ================ Lightline ======================
+set laststatus=2
+set noshowmode
+let g:lightline = {
+      \ 'colorscheme': 'wombat',
+      \ }
 
 " ================ Custom Settings ==================
 
