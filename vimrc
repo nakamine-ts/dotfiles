@@ -13,7 +13,6 @@ Plug 'jistr/vim-nerdtree-tabs'
 
 " syntax highright
 " =============
-Plug 'hdima/python-syntax'
 Plug 'jelera/vim-javascript-syntax'
 
 " Initialize plugin system
