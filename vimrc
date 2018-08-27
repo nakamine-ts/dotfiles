@@ -40,12 +40,6 @@ Plug 'pearofducks/ansible-vim'
 
 call plug#end()
 
-" TODO: this may not be in the correct place. It is intended to allow overriding <Leader>.
-" source ~/.vimrc.before if it exists.
-if filereadable(expand("~/.vimrc.before"))
-  source ~/.vimrc.before
-endif
-
 " ================ General Config ====================
 
 set number                      "Line numbers are good
