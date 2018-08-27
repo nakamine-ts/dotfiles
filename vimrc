@@ -9,7 +9,6 @@ Plug 'jiangmiao/auto-pairs'
 
 " navigation
 " =============
-Plug 'jistr/vim-nerdtree-tabs'
 
 " syntax highright
 " =============
