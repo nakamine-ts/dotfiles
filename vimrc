@@ -1,4 +1,3 @@
-" - Avoid using standard Vim directory names like 'plugin'
 " Use Vim settings, rather then Vi settings (much better!).
 " This must be first, because it changes other options as a side effect.
 set nocompatible
@@ -29,7 +28,6 @@ Plug 'vim-syntastic/syntastic'
 " =============
 Plug 'itchyny/lightline.vim'
 
-" Initialize plugin system
 " terraform
 " =============
 Plug 'hashivim/vim-terraform'
