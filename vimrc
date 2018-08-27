@@ -9,6 +9,7 @@ Plug 'jiangmiao/auto-pairs'
 
 " navigation
 " =============
+Plug 'ctrlpvim/ctrlp.vim'
 
 " syntax highright
 " =============
@@ -160,3 +161,7 @@ let g:lightline = {
 " ================ Custom Settings ==================
 
 set clipboard+=unnamed
+
+" Ctrl-P
+let g:ctrlp_map = '<c-p>'
+let g:ctrlp_cmd = 'CtrlP'
