@@ -27,6 +27,11 @@ Plug 'itchyny/lightline.vim'
 " terraform
 " =============
 Plug 'hashivim/vim-terraform'
+
+" ansible
+" =============
+Plug 'pearofducks/ansible-vim'
+
 call plug#end()
 
 " Use Vim settings, rather then Vi settings (much better!).
