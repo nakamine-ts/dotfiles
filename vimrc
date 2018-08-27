@@ -24,6 +24,9 @@ Plug 'vim-syntastic/syntastic'
 Plug 'itchyny/lightline.vim'
 
 " Initialize plugin system
+" terraform
+" =============
+Plug 'hashivim/vim-terraform'
 call plug#end()
 
 " Use Vim settings, rather then Vi settings (much better!).
