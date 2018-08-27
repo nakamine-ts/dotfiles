@@ -1,5 +1,5 @@
 # Install
 
 ```
-curl -fsSL https://raw.githubusercontent.com/billthelizard/dotfiles/master/install.sh | sh
+curl -fsSL https://raw.githubusercontent.com/nakamine-tsc/dotfiles/master/install.sh | sh
 ```
