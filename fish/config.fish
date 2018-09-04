@@ -14,6 +14,9 @@ set -x PYENV_VIRTUALENV_DISABLE_PROMPT 1
 # nodebrew
 set -x PATH ~/.nodebrew/current/bin $PATH
 
+# rbenv
+. (rbenv init - | psub)
+
 # direnv
 set -x EDITOR vim
 eval (direnv hook fish)
