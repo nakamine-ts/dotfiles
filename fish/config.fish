@@ -23,3 +23,5 @@ eval (direnv hook fish)
 
 # aliases
 alias vi='vim'
+alias tfp='terraform plan'
+alias tfa='terraform apply'
